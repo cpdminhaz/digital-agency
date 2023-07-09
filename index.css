@@ -109,3 +109,16 @@ nav {
 .blog {
     height: 200px; width: 500px;margin: 0 auto;text-align: center;
 }
+
+/* Blogs Styles */
+.blogs {
+    height: 410px; width: 90%; margin: 0 auto;padding-top: 50px;
+}
+
+.blog-1 {
+    height: 410px;width: 30%; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.669);
+}
+
+.blog-text {
+    display: flex; justify-content: space-between;
+}
