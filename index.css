@@ -63,7 +63,7 @@ nav {
     border-radius: 100px;height: 60px;width: 60px;
 }
 .pic-and-more {
-    margin-left: 0px;margin-top: 0px;display: flex;align-items: center;
+    margin-left: 0px;margin-top: 0px;display: flex;align-items: center;gap: 10px;
 }
 .pic-and-more-parent {
     display: flex;align-items: center;gap: 250px;padding-top: 150px;
@@ -87,4 +87,25 @@ nav {
     5px;display: flex;flex-direction: column;justify-content: center;align-items: center
     ;text-align: center; margin-right: 10px;
 
+}
+/* Appointment Section */
+
+.appointment {
+    height: 20vh;width: 80%;background-color: rgb(220, 17, 17);margin: 0 auto;margin-top: -25px;border-radius:15px ;
+}
+.phone {
+    height: 80px; width: 80px;
+}
+.call {
+    display: flex;;align-items: center;height: 120px ;width:220px;margin-left: 50px; gap: 10px;position: relative;}
+
+.appointment-details {
+    color:white; height: 125px;width:500px;position: absolute;margin-top: -120px;margin-left: 500px;display: flex;align-items: center;
+
+}
+
+/* Blog and News Styles */
+
+.blog {
+    height: 200px; width: 500px;margin: 0 auto;text-align: center;
 }
