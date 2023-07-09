@@ -12,7 +12,6 @@ nav {
 .menu {
     padding-right: 15px;
 }
-
 /* Headline Styles */
 .headline-container {
     height: 100vh;background-image: url('asset/image/background.jpg');display: flex;flex-direction: column;justify-content: center;align-items: center;background-repeat: no-repeat;background-size: cover; 
@@ -31,5 +30,38 @@ nav {
     color: white;font-size: 20px
 }
 .btn-primary {
-    background-color: rgb(219, 42, 42);padding: 10px; margin-top: 20px;border-radius: 5px;
+    background-color: rgb(219, 42, 42);padding: 20px; margin-top: 20px;border: 0;color: white;
+}
+#hire-us-now {
+    color: black;background-color: white;margin-left: 5px;
+}
+
+/* Services section Styles */
+.services {
+    background-image:url('asset/image/footer-bg.png');height: 100vh;background-color: rgb(0, 0, 0);color: white;display: flex;flex-direction: row;
+}
+
+
+.services {
+    display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;width:600px;padding-left: 20px;padding-top: 20px;
+}
+
+.service-btn {
+    height: 50px;width: 130px;font-size:large;border-radius: 30px;
+}
+.service-heading {
+    font-size: 40px;padding-top: 10px;
+}
+.service-info-para {
+    font-size: 20px;padding-top: 10px;
+}
+.service-list {
+    font-size: 17px;padding-top: 10px;padding-top: 20px;
+}
+
+.pic-and-more img {
+    border-radius: 100px;height: 60px;width: 60px;
+}
+.pic-and-more {
+    display: flex;justify-content: center;align-items: center;padding-left: 0px;
 }
