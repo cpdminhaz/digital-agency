@@ -116,9 +116,34 @@ nav {
 }
 
 .blog-1 {
-    height: 410px;width: 30%; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.669);
+    height: 410px;width: 30%;box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39); border-radius: 10px;
 }
 
 .blog-text {
     display: flex; justify-content: space-between;
+}
+
+
+/* Footer Styles */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.667);height: 500px;margin-top: 25px;position: relative;display: flex;justify-content: center;align-items: center;background-image:url('asset/image/footer-bg.png'); background-repeat:no-repeat; background-size: cover;
+}
+
+.footer2 {
+    height: 250px; width: 250px;margin-left: 50px;margin-right: 50px;position: static;display: flex;flex-direction: column;justify-content: center;color: white;
+}
+.footer2 a {
+    text-decoration: none;color:white;font-size: 20px;padding: 5px;
+}
+.footer3 {
+    height: 250px; width: 250px;margin-left: 50px;margin-right: 50px;position: static;display: flex;flex-direction: column;justify-content: center;color:white;
+}
+
+.footer3 a {
+    text-decoration: none;color:white;font-size: 20px;padding: 5px;padding-top;
+}
+
+.footers {
+    height: 250px; width: 250px;margin-left: 50px;margin-right: 50px;position: static;display: flex;flex-direction: column;justify-content: center;
 }
