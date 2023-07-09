@@ -43,7 +43,7 @@ nav {
 
 
 .services {
-    display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;width:600px;padding-left: 20px;padding-top: 20px;
+    display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;width:600px;padding-left: 20px;padding-top: 160px;
 }
 
 .service-btn {
@@ -63,5 +63,11 @@ nav {
     border-radius: 100px;height: 60px;width: 60px;
 }
 .pic-and-more {
-    display: flex;justify-content: center;align-items: center;padding-left: 0px;
+    margin-left: 0px;margin-top: 0px;display: flex;align-items: center;
+}
+.pic-and-more-parent {
+    display: flex;align-items: center;gap: 250px;padding-top: 150px;
+}
+.btn-more-details {
+    padding: 15px;border-radius: 15px;
 }
